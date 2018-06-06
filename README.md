@@ -6,7 +6,7 @@ This project aims to implement and improve upon the classical Chinese poetry gen
 
 ## Dependencies
 [Python 2.7](https://www.python.org/download/releases/2.7/)  
-[TensorFlow 1.2.1](https://www.tensorflow.org/)  
+[TensorFlow 1.8.0](https://www.tensorflow.org/)  
 [Jieba 0.38](https://github.com/fxsjy/jieba)  
 [Gensim 2.0.0](https://radimrehurek.com/gensim/)  
 [pypinyin 0.23](https://pypi.python.org/pypi/pypinyin)  
