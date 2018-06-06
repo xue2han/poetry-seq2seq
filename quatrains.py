@@ -12,7 +12,7 @@ def is_quatrain(poem):
     else:
         sentences = poem['sentences']
         return len(sentences) == 4 and \
-                (len(sentences[0]) == 5 or len(sentences[0]) == 7) and \
+                (len(sentences[0]) == 5) and \
                 reduce(lambda x, sentence: x and len(sentence) == len(sentences[0]),
                         sentences[1:], True)
 
